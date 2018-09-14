@@ -8,62 +8,62 @@ export default {
 
 		yesOrNo: '「はい」か「いいえ」しかわからないんです...',
 
-		hello: name => name ? `こんにちは、${name}♪` : `こんにちは♪`,
+		hello: name => name ? `こんにちは、${name}さん♪` : `こんにちは♪`,
 
-		helloNight: name => name ? `こんばんは、${name}♪` : `こんばんは♪`,
+		helloNight: name => name ? `こんばんは、${name}さん♪` : `こんばんは♪`,
 
-		goodMorning: (tension, name) => name ? `おはようございます、${name}！${tension}` : `おはようございます！${tension}`,
+		goodMorning: (tension, name) => name ? `おはようございます、${name}さん！${tension}` : `おはようございます！${tension}`,
 
-		goodNight: name => name ? `おやすみなさい、${name}！` : 'おやすみなさい！',
+		goodNight: name => name ? `おやすみなさい、${name}さん！` : 'おやすみなさい！',
 
 		okaeri: {
-			love: name => name ? `おかえりなさい、${name}♪` : 'おかえりなさい♪',
+			love: name => name ? `おかえりなさい、${name}さん♪` : 'おかえりなさい♪',
 
-			normal: name => name ? `おかえりなさい、${name}！` : 'おかえりなさい！',
+			normal: name => name ? `おかえりなさい、${name}さん！` : 'おかえりなさい！',
 		},
 
 		itterassyai: {
-			love: name => name ? `いってらっしゃい、${name}♪` : 'いってらっしゃい♪',
+			love: name => name ? `いってらっしゃい、${name}さん♪` : 'いってらっしゃい♪',
 
-			normal: name => name ? `いってらっしゃい、${name}！` : 'いってらっしゃい！',
+			normal: name => name ? `いってらっしゃい、${name}さん！` : 'いってらっしゃい！',
 		},
 
-		tooLong: '長すぎる気がします...',
+		tooLong: 'あのね、ながいの...',
 
-		invalidName: '発音が難しい気がします',
+		invalidName: 'はつおんが　むずかしいの……',
 
-		requireMoreLove: 'もっと仲良くなったら考えてあげてもいいですよ？',
+		requireMoreLove: 'あのねあのね、もっと、なかよくなったら　いいですよ？',
 
 		happyBirthday: name => name ? `お誕生日おめでとうございます、${name}🎉` : 'お誕生日おめでとうございます🎉',
 
 		nadenade: {
-			normal: '…！ びっくりしました',
+			normal: '…！ びっくりしたぁ',
 
-			love2: 'わわっ… 恥ずかしいです',
+			love2: 'わわっ… くすぐったいよぉ',
 
-			love3: 'ん… ありがとうございます♪',
+			love3: 'ん… えへへ♪',
 
-			hate1: '…っ！ やめてほしいです...',
+			hate1: '…っ！ やめて...',
 
-			hate2: '触らないでください',
+			hate2: 'だめー！！さわらないで！！',
 
-			hate3: '近寄らないでください',
+			hate3: '……近寄らないで',
 
-			hate4: 'やめてください。通報しますよ？',
+			hate4: 'だめー、とまってー！キラーT細胞さんが来ちゃうよ？',
 		},
 
 		kawaii: {
-			normal: 'ありがとうございます♪',
+			normal: 'ありがとー♪',
 
-			love: '嬉しいです♪',
+			love: 'うれしいの♪',
 
-			hate: '…ありがとうございます'
+			hate: 'えへ……ありがとー///'
 		},
 
 		suki: {
-			normal: 'えっ… ありがとうございます…♪',
+			normal: 'えっ… ありがとー…♪',
 
-			love: name => `私もその… ${name}のこと好きですよ♪`,
+			love: name => `わたしもその… ${name}のこと すき♪`,
 
 			hate: null
 		},
@@ -73,28 +73,28 @@ export default {
 
 			love: 'ぎゅーっ♪',
 
-			hate: '離れてください...'
+			hate: 'やめてー！！離れて...'
 		},
 
 		humu: {
-			love: 'え、えっと…… ふみふみ……… どうですか…？',
+			love: 'え、えっと…… ふみふみ……… どうかな…？',
 
 			normal: 'えぇ... それはちょっと...',
 
-			hate: '……'
+			hate: '………'
 		},
 
 		batou: {
-			love: 'AIに罵られたいって... ちょっと引きます',
+			love: 'ののしられたいって... ちょっと引いちゃうかも',
 
 			normal: '(じとー…)',
 
-			hate: '…頭大丈夫ですか？'
+			hate: 'しこうかいろ とまってー！！'
 		}
 	},
 
 	keyword: {
-		learned: (word, reading) => `(${word}..... ${reading}..... 覚えました)`,
+		learned: (word, reading) => `(${word}..... ${reading}..... おぼえました)`,
 
 		remembered: (word) => `${word}`
 	},
@@ -110,12 +110,12 @@ export default {
 		/**
 		 * リバーシへの誘いを承諾するとき
 		 */
-		ok: '良いですよ～',
+		ok: 'いいですよ～',
 
 		/**
 		 * リバーシへの誘いを断るとき
 		 */
-		decline: 'ごめんなさい、今リバーシはするなと言われてます...',
+		decline: 'あのねあのね、リバーシは工事中なの...',
 
 		/**
 		 * 対局開始
@@ -130,7 +130,7 @@ export default {
 		/**
 		 * 勝ったとき
 		 */
-		iWon: name => `${name}に勝ちました♪`,
+		iWon: name => `やったー！${name}に勝ったよ♪`,
 
 		/**
 		 * 接待のつもりが勝ってしまったとき
@@ -140,7 +140,7 @@ export default {
 		/**
 		 * 負けたとき
 		 */
-		iLose: name => `${name}に負けました...`,
+		iLose: name => `あうぅ……${name}に負けちゃった……`,
 
 		/**
 		 * 接待で負けてあげたとき
@@ -150,7 +150,7 @@ export default {
 		/**
 		 * 引き分けたとき
 		 */
-		drawn: name => `${name}と引き分けました～`,
+		drawn: name => `${name}となかよしです`,
 
 		/**
 		 * 接待で引き分けたとき
@@ -160,7 +160,7 @@ export default {
 		/**
 		 * 相手が投了したとき
 		 */
-		youSurrendered: name => `${name}が投了しちゃいました`,
+		youSurrendered: name => `${name}が投了しちゃいました……`,
 
 		/**
 		 * 接待してたら相手が投了したとき
@@ -175,82 +175,82 @@ export default {
 		/**
 		 * やろうと言われたけど既にやっているとき
 		 */
-		arleadyStarted: 'え、ゲームは既に始まってますよ！',
+		arleadyStarted: 'えっ、いまもう始まっているよ！',
 
 		/**
 		 * タイムライン上で誘われたとき
 		 */
-		plzDm: 'メッセージでやりましょう！',
+		plzDm: 'メッセージを見てほしいの',
 
 		/**
 		 * ゲーム開始
 		 */
-		started: '0~100の秘密の数を当ててみてください♪',
+		started: '0~100の数字を当ててみてー！',
 
 		/**
 		 * 数字じゃない返信があったとき
 		 */
-		nan: '数字でお願いします！「やめる」と言ってゲームをやめることもできますよ！',
+		nan: 'あのねあのね、数字でお願いします！「やめる」でゲーム終了ですよ！',
 
 		/**
 		 * 中止を要求されたとき
 		 */
-		cancel: 'わかりました～。ありがとうございました♪',
+		cancel: 'わかりました～。ありがとう♪',
 
 		/**
 		 * 小さい数を言われたとき
 		 */
-		grater: num => `${num}より大きいですね`,
+		grater: num => `${num}より大きいよ`,
 
 		/**
 		 * 小さい数を言われたとき(2度目)
 		 */
-		graterAgain: num => `もう一度言いますが${num}より大きいですよ！`,
+		graterAgain: num => `あのねあのね、${num}より大きいの！`,
 
 		/**
 		 * 大きい数を言われたとき
 		 */
-		less: num => `${num}より小さいですね`,
+		less: num => `${num}より小さいよ`,
 
 		/**
 		 * 大きい数を言われたとき(2度目)
 		 */
-		lessAgain: num => `もう一度言いますが${num}より小さいですよ！`,
+		lessAgain: num => `あのね、${num}より小さいの！`,
 
 		/**
 		 * 正解したとき
 		 */
-		congrats: tries => `正解です🎉 (${tries}回目で当てました)`,
+		congrats: tries => `おおっ、せーかい🎉 (${tries}回目で当てました)`,
 	},
 
 	/**
 	 * 絵文字生成
 	 */
 	emoji: {
-		suggest: emoji => `こんなのはどうですか？→${emoji}`,
+		suggest: emoji => `こんなのはどうかな？→${emoji}`,
 	},
 
 	/**
 	 * 占い
 	 */
 	fortune: {
-		cw: name => name ? `私が今日の${name}の運勢を占いました...` : '私が今日のあなたの運勢を占いました...',
+		cw: name => name ? `あのねあのね、今日の${name}の運勢を占うの` : 'あのねあのね、今日の運勢を占うの',
 	},
 
 	/**
 	 * タイマー
 	 */
 	timer: {
-		set: 'わかりました！',
+		set: 'タイマーすたーと！',
 
 		invalid: 'うーん...？',
 
-		tooLong: '長すぎます…',
+		tooLong: 'ながすぎだよ…',
 
 		notify: (time, name) => name ? `${name}、${time}経ちましたよ！` : `${time}経ちましたよ！`
 	},
 
 	server: {
-		cpu: 'サーバーの負荷が高そうです。大丈夫でしょうか...？'
+		cpu: 'サーバー負荷とまってー！！！'
 	}
 };
